@@ -2,7 +2,7 @@
 <HTML>
 
 <HEAD>
-  <TITLE> NGUYỄN SĨ NGHĨA </TITLE>
+  <TITLE> Nghiax295 </TITLE>
   <META NAME="Generator" CONTENT="EditPlus">
   <META NAME="Author" CONTENT="">
   <META NAME="Keywords" CONTENT="">
@@ -28,16 +28,35 @@
       color: #ff69b4;
       position: relative;
       text-align: center;
-      top: 54%;
+      top: 20%;
     }
-    
+    /* img */
+    .img {
+      position: absolute;
+      left: 50%;
+      top: 65%;
+      transform: translate(-50%, -50%);
+      width: 430px;
+      height: 430px;
+    }
+    img {
+
+      /* width: 200px; */
+      aspect-ratio: 1;
+      object-fit: cover;
+      --_m: radial-gradient(#000 69%, #0000 70%) 84.5% fill/100%;
+      -webkit-mask-box-image: var(--_m);
+      mask-border: var(--_m);
+      clip-path: polygon(-41% 0, 50% 91%, 141% 0);
+    }
   </style>
 
 </HEAD>
 
 <BODY>
   
- <h1>Nguyễn Hà Vy</h1>
+ <h1>L O V E <strong>❤</strong> HÀ VY</h1>
+ <img class="img" src="havy.jpg" alt="" />
 
   <canvas id="pinkboard"></canvas>
   <script>
